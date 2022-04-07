@@ -16,7 +16,7 @@
 
 
 
-        protected $allowedFields=['id', 'firstname', 'lastname', 'country_code', 'email', 'password', 'nic', 'doctorid', 'specialization', 'address', 'myfile'];
+        protected $allowedFields=['id', 'firstname', 'lastname', 'phone', 'email', 'password', 'nic', 'doctorid', 'specialization', 'address', 'myfile'];
 
         protected $returnType = 'App\Entities\Practitioner';
 
