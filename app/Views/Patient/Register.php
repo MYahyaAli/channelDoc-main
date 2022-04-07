@@ -26,7 +26,7 @@
 
 
           <label>Mobile Number</label>
-            <input type="text" name="country_code" placeholder="Country Code"  value="+94" size="12"/>
+            <input type="text" name="phone" placeholder="Phone"  value="+94" size="12"/>
           <label>Email</label>
             <input type="text" name="email" placeholder="Email" size="25"required /> 
           <label> NIC </label> 

@@ -47,6 +47,9 @@ class Validation
         'password' => 'required|min_length[5]|max_length[20]',
         'pass_confirm' => 'required|matches[password]',
         'email' => 'required|valid_email',
+        'specialization'=> 'required',
+        'address'=>'required',
+        'myfile'=>'uploaded[myfile]|ext_in[myfile,pdf]'
     ];
     //--------------------------------------------------------------------
     // Rules

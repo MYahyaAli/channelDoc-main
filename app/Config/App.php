@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/new/public/';
+    public $baseURL = 'http://localhost/channelDoc-main/public/';
 
     /**
      * --------------------------------------------------------------------------
