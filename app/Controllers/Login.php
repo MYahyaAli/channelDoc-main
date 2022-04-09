@@ -76,7 +76,7 @@ class Login extends BaseController
 			$session->set('DoctorID', $user -> doctorid); 
 			$session->set('Specialization', $user -> specialization);
             
-            return view('Practitoner/prac_dashboard');
+            return view('Home');
 		}
 		else if ($users !== null && password_verify($password, $user->password)) {
 			// If login was successful

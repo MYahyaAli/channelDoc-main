@@ -23,12 +23,12 @@ body{
     height:100% ;
     width: 240px;
     position: fixed;
-    background: #28815d;
+    background: #042b1b;
     padding: 30px 14px;
 }
 
 /* image upload */
-/* .avatar-upload {
+.avatar-upload {
     position: relative;
     max-width: 205px;
     margin: 50px auto;
@@ -85,7 +85,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  } */
+  }
   /*end of image upload  */
   
 .wrapper .sidebar .logo_content .logo{
@@ -252,4 +252,8 @@ table{
 th, td{
     padding: 6px;
     border:1px solid;
+}
+
+nav{
+    position: fixed;
 }
